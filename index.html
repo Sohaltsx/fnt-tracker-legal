@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – FnT Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1565C0;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 8px; font-size: 0.95rem; color: rgba(255,255,255,0.75); }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+
+    section { margin-bottom: 36px; }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1565C0;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+
+    p { margin-bottom: 12px; font-size: 0.97rem; }
+
+    ul {
+      margin: 8px 0 12px 20px;
+      font-size: 0.97rem;
+    }
+    ul li { margin-bottom: 6px; }
+
+    a { color: #1565C0; }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .highlight {
+      background: #eff6ff;
+      border-left: 4px solid #1565C0;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>FnT Tracker &nbsp;·&nbsp; Last updated: May 2025</p>
+</header>
+
+<main>
+
+  <div class="highlight">
+    FnT Tracker is a private fleet management tool. Your data is stored securely under your own account and is never sold, shared, or used for advertising.
+  </div>
+
+  <div class="card">
+
+    <section>
+      <h2>1. Who We Are</h2>
+      <p>FnT Tracker is developed and maintained by Sandeep. If you have any questions about this policy, contact us at <a href="mailto:friendsntravel03@gmail.com">friendsntravel03@gmail.com</a>.</p>
+    </section>
+
+    <section>
+      <h2>2. Information We Collect</h2>
+      <p>We collect only what is necessary to operate the app.</p>
+
+      <p><strong>Account information (via Google Sign-In)</strong></p>
+      <ul>
+        <li>Your name</li>
+        <li>Your email address</li>
+        <li>Your Google profile photo</li>
+      </ul>
+
+      <p><strong>Fleet and business data you enter</strong></p>
+      <ul>
+        <li>Trip entries: date, earnings, fuel cost, fines, driver share, hours, distance, notes</li>
+        <li>Driver details: name, licence number, Aadhaar number, joining date, active status</li>
+        <li>Vehicle details: name, plate number, status, insurance and registration expiry dates</li>
+        <li>Booking and customer information</li>
+        <li>Loan records</li>
+      </ul>
+
+      <p><strong>Profile image</strong></p>
+      <ul>
+        <li>An optional profile photo you upload is stored in Firebase Storage under your account.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. How We Use Your Information</h2>
+      <ul>
+        <li>To authenticate you and keep your data private to your account</li>
+        <li>To display your fleet, trip, and financial data within the app</li>
+        <li>To send local notifications for vehicle insurance and registration expiry reminders</li>
+        <li>To generate trip summary reports and PDF invoices on your device</li>
+      </ul>
+      <p>We do <strong>not</strong> use your data for advertising, analytics profiling, or any purpose beyond operating the app.</p>
+    </section>
+
+    <section>
+      <h2>4. Data Storage and Security</h2>
+      <p>Your data is stored in Google Firebase (Firestore and Storage), hosted on Google's infrastructure. Access is enforced by Firestore Security Rules so that only you — authenticated with your Google account — can read or write your own data.</p>
+      <p>Google Firebase complies with industry-standard security certifications including ISO 27001 and SOC 2. For more details, see <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's Privacy and Security</a>.</p>
+    </section>
+
+    <section>
+      <h2>5. Data Sharing</h2>
+      <p>We do not sell, rent, or share your personal information with any third party, except:</p>
+      <ul>
+        <li><strong>Google Firebase</strong> — acts as our data storage and authentication provider. Google processes data on our behalf under their <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+        <li><strong>Legal requirement</strong> — if required by law or a valid legal process.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Permissions</h2>
+      <ul>
+        <li><strong>INTERNET</strong> — required to sync data with Firebase</li>
+        <li><strong>POST_NOTIFICATIONS</strong> — used to deliver vehicle expiry reminders</li>
+        <li><strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</strong> — used when you choose to upload a profile photo</li>
+        <li><strong>SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM</strong> — used to schedule expiry reminder notifications at precise times</li>
+        <li><strong>RECEIVE_BOOT_COMPLETED</strong> — used to reschedule notifications after the device restarts</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Data Retention and Deletion</h2>
+      <p>Your data is retained for as long as you use the app. You can delete individual records (trips, drivers, vehicles, bookings) at any time from within the app.</p>
+      <p>To request full deletion of your account and all associated data, contact us at <a href="mailto:friendsntravel03@gmail.com">friendsntravel03@gmail.com</a> and we will delete your data within 30 days.</p>
+    </section>
+
+    <section>
+      <h2>8. Children's Privacy</h2>
+      <p>FnT Tracker is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+    </section>
+
+    <section>
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>10. Contact Us</h2>
+      <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+      <p><a href="mailto:friendsntravel03@gmail.com">friendsntravel03@gmail.com</a></p>
+    </section>
+
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 FnT Tracker. All rights reserved.
+</footer>
+
+</body>
+</html>
